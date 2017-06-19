@@ -9,8 +9,8 @@
  - 8.Каждая строчка кода содержит комментарий, что облегчает читабельность 
  - 9.Автотест не привязан ни к одному из языков сайта(Укр, Рус, Англ). 
  - 10.Локаторы подобраны, как можно более устойчивее для рефакторинга.
-
- - 11.Более подробней с Selenide можно ознакомиться:
+ - 11. Видео самого теста - https://www.youtube.com/watch?v=MTHhflyh8Ck
+ - 12.Более подробней с Selenide можно ознакомиться:
  - http://selenide.org/
  - https://habrahabr.ru/post/274071/
  - https://docs.google.com/document/d/1sEiMWi4UCcj5Wcl2QWSloSC89r-YnPpPXLiP_ENvP8E/edit
