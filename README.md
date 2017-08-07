@@ -1,16 +1,16 @@
 # Automation-MetaUA
  - 1.Selenide Webdriver + Java + IntelliJ Idea
- - 2.Автотест написан на Selenide - это обвертка Selenium.
- - 3.Тест запускается на Google Chrome, с помощью ChromeDriver, который находиться в папке main/java/resources/chromedriver
- - 4.Почти в каждой строчке кода стоит ожидание, чтобы при запуске можно было визуально наблюдать работу Автотеста. ПО желанию, sleep можно не ставить, за исключением, когда это необходимо. 
- - 5.В Автотесте прогнан основной базовый функционал главной страницы сайта http://meta.ua/.
- - 6.Главная цель теста эмулировать действие пользователя и убеддится в том, что заданный функционал работает по назначению.
- - 7.Для лучшей читабельности теста, все "блоки" тестирования, были объявленны в методах, и выведены в верхней части класса в список. При необходимости методы в списке можно менять местами или закомментить для отдельной работы с остальными методами в отдельности.
- - 8.Каждая строчка кода содержит комментарий, что облегчает читабельность 
- - 9.Автотест не привязан ни к одному из языков сайта(Укр, Рус, Англ). 
- - 10.Локаторы подобраны, как можно более устойчивее для рефакторинга.
- - 11.Видео самого теста - https://www.youtube.com/watch?v=jJIvk0vEeHw
- - 12.Более подробней с Selenide можно ознакомиться:
+ - 2.The Autotest is written on Selenide - it's a Selenium wrapper.
+ - 3.The test runs on Google Chrome, using ChromeDriver, which is located in the folder main/java/resources/chromedriver
+ - 4.Almost in each line of code there is an expectation that at start-up it was possible to visually observe the Autotest.
+ - 5.The Autotest have basic functionality of the main page of the site - http://meta.ua/.
+ - 6.The main purpose of the test is to emulate the user's action and make sure that the specified functionality works as intended.
+ - 7.For better readability of the test, all the "blocks" of testing were declared in the methods, and displayed at the top of the class in the list.If necessary, the methods in the list can be interchanged or commented out for a separate work with the other methods separately.
+ - 8.Each line of code contains a comment, which makes it easier to read
+ - 9.Autotest is not tied to any of the languages of the site (Ukr, Rus, Eng).
+ - 10.Locators are matched as much as possible for refactoring.
+ - 11.Video of the test - https://www.youtube.com/watch?v=jJIvk0vEeHw
+ - 12.In more detail with Selenide you can find:
  - http://selenide.org/
  - https://habrahabr.ru/post/274071/
  - https://docs.google.com/document/d/1sEiMWi4UCcj5Wcl2QWSloSC89r-YnPpPXLiP_ENvP8E/edit
